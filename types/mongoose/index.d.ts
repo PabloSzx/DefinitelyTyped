@@ -3336,7 +3336,7 @@ declare module "mongoose" {
     /** optional query conditions to match */
     match?: any;
     /** optional name of the model to use for population */
-    model?: string;
+    model?: string | Model<any>;
     /** optional query options like sort, limit, etc */
     options?: any;
     /** deep populate */
